@@ -1,0 +1,53 @@
+header {
+  background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+header nav {
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul li:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+header div {
+  width: 50%;
+  font-size: 1rem;
+}
+
+.section-container {
+  background-color: #738000;
+}
+.section-container h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: white;
+}
+
+.section2 {
+  background: linear-gradient(45deg, black, yellow);
+  display: flex;
+  width: 100%;
+  color: white;
+}
+.section2 h2 {
+  text-decoration: underline 2px;
+}
+
+.section3 {
+  background-color: grey;
+}
+.section3 p {
+  border: 1px solid black;
+}
+
+.section4 {
+  background-color: black;
+  color: beige;
+}
+
+/*# sourceMappingURL=style.css.map */

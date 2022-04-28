@@ -1,0 +1,27 @@
+
+@import"variables";
+header{
+    background-color: $bg-color;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: $font-color;
+    font-size: $font-size;
+
+        nav{
+            width: 100%;
+            ul{
+                display: flex;
+                justify-content: space-around;
+                li:hover{
+                    transform: scale(1.2);
+                    transition: all 0.2s ease-in-out;
+                    
+
+
+                }
+            }
+        }
+        div{
+            width: 50%;
+            font-size: 1rem;
+        }
+}

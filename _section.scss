@@ -1,0 +1,43 @@
+@import"variables";
+$amarillo: #e5ff00;
+$negro: black;
+@import "mapas";
+
+
+.section-container{
+    background-color: mix($amarillo,$negro);
+        h1{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color:$font-color;
+            
+                
+
+            
+        }
+}
+
+
+.section2{
+    background: linear-gradient(45deg,black,yellow);
+    display: flex;
+    width: 100%;
+    color: $font-color;
+            h2{
+                text-decoration: underline 2px;
+            }
+            
+}
+
+.section3{
+    background-color: map-get($section3, bg-color-3);
+        p{
+            border: map-get($section3, border-standard);
+
+    }
+}
+
+.section4 {
+    background-color: map-get($section4,bg-color-4);
+    color:map-get($section4, font-color )
+}
+
