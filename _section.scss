@@ -2,7 +2,8 @@
 $amarillo: #e5ff00;
 $negro: black;
 @import "mapas";
-
+@import "extends";
+@import "mixin";
 
 .section-container{
     background-color: mix($amarillo,$negro);
@@ -38,6 +39,19 @@ $negro: black;
 
 .section4 {
     background-color: map-get($section4,bg-color-4);
-    color:map-get($section4, font-color )
-}
+    color:map-get($section4, font-color );
+        h3{
+            @extend %section4 ;
+        
+            @include movil (4rem)
+        }
+             
+
+                  
+        }
+        
+            
+        
+
+
 

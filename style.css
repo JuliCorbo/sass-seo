@@ -20,6 +20,13 @@ header div {
   font-size: 1rem;
 }
 
+.section4 h3 {
+  border-radius: 6px;
+  padding: 20px 4px;
+  border: 1px solid gray;
+  background-color: aqua;
+}
+
 .section-container {
   background-color: #738000;
 }
@@ -48,6 +55,16 @@ header div {
 .section4 {
   background-color: black;
   color: beige;
+}
+.section4 h3 {
+  font-size: 4rem;
+}
+
+.section4 h3 {
+  border-radius: 6px;
+  padding: 20px 4px;
+  border: 1px solid gray;
+  background-color: aqua;
 }
 
 /*# sourceMappingURL=style.css.map */
